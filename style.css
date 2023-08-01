@@ -56,41 +56,44 @@ h3 {
     animation-iteration-count: infinite;
     width: 400px;
     height: 500px;
-    position: relative;
-    left: 35vw;
+    abs left: 100vw;
 }
 
 @keyframes slider1 {
     0% {
-        background-image: url("https://posterspy.com/wp-content/uploads/2023/06/spiderverse-ALT_poster-1.jpg");
+        background-image: url("images\1pic.jpg");
     }
 
-    10% {
-        background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f8b5a8f7-b140-42e2-8992-9915614f696d/dfz8cyp-7cf2893d-bc3c-456d-a5d8-9cc5f3c9425d.jpg/v1/fill/w_799,h_1000,q_70,strp/spider_man_across_the_spider_verse_post__by_ankushrex_dfz8cyp-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzQ2NCIsInBhdGgiOiJcL2ZcL2Y4YjVhOGY3LWIxNDAtNDJlMi04OTkyLTk5MTU2MTRmNjk2ZFwvZGZ6OGN5cC03Y2YyODkzZC1iYzNjLTQ1NmQtYTVkOC05Y2M1ZjNjOTQyNWQuanBnIiwid2lkdGgiOiI8PTI3NzEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.y6qjOC6AS-U9N9sSNuHFEMACnQhPKMIVkN9S00bpOXo");
+    15% {
+        background-image: url("images\2pic.jpg");
     }
 
-    25% {
-        background-image: url("https://i.etsystatic.com/34708433/r/il/34a625/4996254289/il_fullxfull.4996254289_ij37.jpg");
+    30% {
+        background-image: url("images\3pic.jpg");
     }
 
-    40% {
-        background-image: url("https://www.sonypictures.co.uk/sites/unitedkingdom/files/2023-04/SV2_INTL_OnLine_6072x9000_B2B_06.jpg");
+    45% {
+        background-image: url("images\4pic.jpg");
     }
 
-    55% {
-        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJR1BBQCZSbQ1Qdm8MAlI7I5eu1qxpZaw6UMfvntNsIGfajUY_l_ieLJprW2fttbZWEq0&usqp=CAU");
+    60% {
+        background-image: url("images\5pic.jpg");
     }
 
-    70% {
-        background-image: url("https: //sidewalkfest.com/wp-content/uploads/2023/05/36100a88-c5c0-48be-91cc-404cbae17a25.jpg");
+    75% {
+        background-image: url("images\6pic.jpg");
     }
 
     85% {
-        background-image: url("https: //images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/674b36f0-7771-4188-b382-ade2d495544a/devrdoq-d6c3a903-d396-4d1e-8cc2-b2f2b7d7f108.png/v1/fill/w_715,h_1118,q_70,strp/spider_man_across_the_spider_verse_poster_by_iamtherealnova_devrdoq-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTI1MyIsInBhdGgiOiJcL2ZcLzY3NGIzNmYwLTc3NzEtNDE4OC1iMzgyLWFkZTJkNDk1NTQ0YVwvZGV2cmRvcS1kNmMzYTkwMy1kMzk2LTRkMWUtOGNjMi1iMmYyYjdkN2YxMDgucG5nIiwid2lkdGgiOiI8PTMzNjEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.D6_Yb-MnjrrpmB1jmwgAtETbQny6oyWtzaWv_dAUFhk");
+        background-image: url("images\7pic.jpg");
+    }
+
+    95% {
+        background-image: url("images\8pic.webp");
     }
 
     100% {
-        background-image: url("https://media1.popsugar-assets.com/files/thumbor/NcfN5cZMSZQfpLrVZ1IluMLrR7c=/fit-in/2048x2987/filters:format_auto():extract_cover():upscale()/2023/06/28/792/n/1922283/netimgSDnSaa.jpg");
+        background-image: url("images\9pic.jpg");
     }
 }
 
