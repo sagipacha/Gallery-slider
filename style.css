@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: rgba(118, 89, 89, 0.338);
+    background-color: rgba(118, 89, 89);
     height: 400vh;
     width: 70vw;
     display: flex;
@@ -13,7 +13,9 @@ body {
 }
 
 .Head {
-position: relative;
+    position: relative;
+    width: 100%;
+    height: 20%;
 }
 
 h1 {
@@ -21,7 +23,7 @@ h1 {
     right: 10px;
     font-size: 65px;
     text-align: center;
-    top: -170px;
+    top: 90px;
 }
 
 #Head_gif {
@@ -29,7 +31,7 @@ h1 {
     width: 100px;
     position: absolute;
     left: 155vh;
-    top: -23vh;
+    top: 23vh;
 
 }
 
@@ -59,12 +61,12 @@ h3 {
 
 /* Task1 */
 .first_slider {
-    background-size: cover;
+    background-size: 100% 100%;
     animation-name: slider1;
     animation-duration: 14s;
     animation-iteration-count: infinite;
     width: 300px;
-    height: 500px;
+    height: 1200px;
     position: relative;
     left: 2vw;
 
@@ -195,9 +197,9 @@ section {
 /* Task 3 */
 
 .third_slider {
-    height: 500px;
+    height: 1600px;
     width: 300px;
-    background-size: 300px 500px;
+    background-size: 100% 100%;
     background-image: url("images/7pic.jpg");
 
 }
@@ -297,6 +299,180 @@ section {
     animation: slider4 14s infinite;
 }
 
-#left_side:hover~ .slider4_1 {
+#left_side:hover~.slider4_1 {
     animation: slider4 14s infinite;
 }
+
+/* slider5 */
+
+.fifth_slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.slider5_1 {
+    background-image: url(images/1pic.jpg);
+    background-repeat: no-repeat;
+    animation-name: slider5_1;
+    animation-duration: 5s;
+    height: 500px;
+    width: 300px;
+    background-size: 300px 500px;
+}
+
+@keyframes slider5_1 {
+    0% {
+        background-image: url("images/1pic.jpg");
+    }
+
+    50% {
+        background-image: url("images/2pic.jpg");
+    }
+
+    100% {
+        background-image: url("images/3pic.jpg");
+    }
+}
+
+#right_side_1:hover~.slider5_1 {
+    animation: slider5_1 14s infinite;
+}
+
+#left_side_2:hover~.slider5_1 {
+    animation: slider5_1 14s infinite;
+}
+
+
+.slider5_2 {
+    background-image: url("images/4pic.jpg");
+    background-repeat: no-repeat;
+    animation-name: slider5_2;
+    animation-duration: 5s;
+    height: 500px;
+    width: 300px;
+    background-size: 300px 500px;
+}
+
+@keyframes slider5_2 {
+    0% {
+        background-image: url("images/4pic.jpg");
+    }
+
+    50% {
+        background-image: url("images/5pic.jpg");
+    }
+
+    100% {
+        background-image: url("images/6pic.jpg");
+    }
+}
+
+#right_side_1:hover~.slider5_2 {
+    animation: slider5_2 14s infinite;
+}
+
+#left_side_2:hover~.slider5_2 {
+    animation: slider5_2 14s infinite;
+}
+
+.slider5_3 {
+    background-image: url("images/7pic.jpg");
+    background-repeat: no-repeat;
+    animation-name: slider5_3;
+    animation-duration: 5s;
+    height: 500px;
+    width: 300px;
+    background-size: 300px 500px;
+}
+
+@keyframes slider5_3 {
+
+    0% {
+        background-image: url("images/7pic.jpg");
+    }
+
+    50% {
+        background-image: url("images/8pic.webp");
+    }
+
+    100% {
+        background-image: url("images/9pic.jpg");
+    }
+}
+
+#right_side_1:hover~.slider5_3 {
+    animation: slider5_3 14s infinite;
+}
+
+#left_side_2:hover~.slider5_3 {
+    animation: slider5_3 14s infinite;
+}
+
+#right_side_1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -40px;
+    bottom: 250px;
+}
+
+#left_side_2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -40px;
+    bottom: 250px;
+}
+
+/*task 6*/
+
+.six_slider {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+
+.img6 {
+    height: 200px;
+    min-width: 200px;
+    width: 200px;
+    animation: slider6 10s infinite;
+}
+
+.left_background {
+    width:500px ;
+    height:400px ;
+    position: relative;
+    left: -195px;
+    bottom: 200px;
+    background-color: rgba(118, 89, 89);
+    
+}
+
+.right_background {
+    width:700px ;
+    height:400px ;
+    position: relative;
+    right: -720px;
+    bottom: 610px;
+    background-color: rgba(118, 89, 89);
+}
+
+@keyframes slider6 {
+0% {transform:translatex(0%);}
+100% {transform: translatex(900%);}
+
+
+}
+
+
+
+
+
+
+
+
+
+
